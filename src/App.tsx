@@ -1,9 +1,10 @@
 import { isMobile } from 'react-device-detect'
+import NoAccess from './components/noAccess/NoAccess'
 import logo from './logo.svg'
 import style from './App.module.scss'
 
 function App() {
-  return (
+  return isMobile ? (
     <div className={style.App}>
       <header className={style['App-header']}>
         <img src={logo} className={style['App-logo']} alt='logo' />
@@ -19,6 +20,8 @@ function App() {
         </a>
       </header>
     </div>
+  ) : (
+    <NoAccess />
   )
 }
 
