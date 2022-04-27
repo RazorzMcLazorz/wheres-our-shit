@@ -13,7 +13,7 @@ const AppBar = () => {
 
   return (
     <>
-      <MUIAppBar position='static'>
+      <MUIAppBar position='absolute' style={{ position: 'sticky', top: 0 }}>
         <Toolbar>
           <IconButton
             size='large'
