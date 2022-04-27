@@ -1,5 +1,5 @@
 import SentimentDissatisfiedTwoToneIcon from '@mui/icons-material/SentimentDissatisfiedTwoTone'
-import style from '../../App.module.scss'
+import style from '../../../App.module.scss'
 
 function NoAccess() {
   return (
