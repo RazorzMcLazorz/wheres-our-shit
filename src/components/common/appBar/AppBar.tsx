@@ -27,7 +27,7 @@ const AppBar = () => {
           <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
             Wheres Our Shit
           </Typography>
-          <Button color='inherit'>Who?</Button>
+          <Button color='inherit'>Who Are You?</Button>
         </Toolbar>
       </MUIAppBar>
       <Drawer anchor='left' open={isOpen} onClose={() => setIsOpen(false)}>
